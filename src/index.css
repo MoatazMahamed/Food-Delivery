@@ -31,3 +31,27 @@ a {
     opacity: 1;
   }
 }
+
+
+/* Responsive */
+
+/* Tablets */
+@media (max-width: 1024px) {
+  .app {
+    width: 90%;
+  }
+}
+
+/* Mobile Phones */
+@media (max-width: 768px) {
+  .app {
+    width: 95%;
+  }
+}
+
+/* Small Mobile Phones */
+@media (max-width: 480px) {
+  .app {
+    width: 98%;
+  }
+}

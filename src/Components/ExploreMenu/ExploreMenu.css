@@ -59,9 +59,93 @@
 
 /* Responsive */
 
-@media (max-width: 1050px) {
+/* Tablets */
+@media (max-width: 1024px) {
+  .explore-menu {
+    gap: 15px;
+  }
+  
+  .explore-menu h1 {
+    font-size: 24px;
+  }
+  
   .explore-menu-text {
     max-width: 100%;
     font-size: 14px;
+  }
+  
+  .explore-menu-list {
+    gap: 20px;
+  }
+  
+  .explore-menu-list-item img {
+    width: 6.5vw;
+    min-width: 70px;
+  }
+  
+  .explore-menu-list-item p {
+    font-size: max(1.2vw, 14px);
+  }
+}
+
+/* Mobile Phones */
+@media (max-width: 768px) {
+  .explore-menu {
+    gap: 12px;
+  }
+  
+  .explore-menu h1 {
+    font-size: 22px;
+  }
+  
+  .explore-menu-text {
+    font-size: 13px;
+  }
+  
+  .explore-menu-list {
+    gap: 15px;
+    margin: 15px 0px;
+  }
+  
+  .explore-menu-list-item img {
+    width: 5.5vw;
+    min-width: 60px;
+  }
+  
+  .explore-menu-list-item p {
+    font-size: max(1vw, 12px);
+  }
+}
+
+/* Small Mobile Phones */
+@media (max-width: 480px) {
+  .explore-menu {
+    gap: 10px;
+  }
+  
+  .explore-menu h1 {
+    font-size: 20px;
+  }
+  
+  .explore-menu-text {
+    font-size: 12px;
+  }
+  
+  .explore-menu-list {
+    gap: 12px;
+    margin: 12px 0px;
+  }
+  
+  .explore-menu-list-item img {
+    min-width: 50px;
+  }
+  
+  .explore-menu-list-item p {
+    margin-top: 5px;
+    font-size: 11px;
+  }
+  
+  .explore-menu-list-item .active {
+    border: 3px solid tomato;
   }
 }

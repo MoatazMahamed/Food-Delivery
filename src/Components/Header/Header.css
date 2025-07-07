@@ -43,17 +43,40 @@
 
 /* Responsive */
 
-@media (max-width: 1050px) {
+/* Tablets */
+@media (max-width: 1024px) {
+  .header {
+    height: 38vw;
+    margin: 25px auto;
+  }
+  
   .header-contents {
     max-width: 45%;
+    bottom: 8%;
+    gap: 1.2vw;
+  }
+  
+  .header-contents p {
+    font-size: 1.2vw;
+  }
+  
+  .header-contents button {
+    padding: 1.2vw 2.5vw;
   }
 }
 
-
-
-@media (max-width: 750px) {
+/* Mobile Phones */
+@media (max-width: 768px) {
+  .header {
+    height: 42vw;
+    margin: 20px auto;
+    background-position: center;
+  }
+  
   .header-contents {
     max-width: 65%;
+    bottom: 6%;
+    gap: 1vw;
   }
 
   .header-contents p {
@@ -62,5 +85,28 @@
 
   .header-contents button {
     padding: 2vw 4vw;
+  }
+}
+
+/* Small Mobile Phones */
+@media (max-width: 480px) {
+  .header {
+    height: 50vw;
+    margin: 15px auto;
+  }
+  
+  .header-contents {
+    max-width: 75%;
+    bottom: 5%;
+    left: 5vw;
+  }
+  
+  .header-contents h2 {
+    font-size: max(4vw, 18px);
+  }
+  
+  .header-contents button {
+    padding: 2.5vw 5vw;
+    font-size: max(0.9vw, 12px);
   }
 }
